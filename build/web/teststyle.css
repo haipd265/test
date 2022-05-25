@@ -1,0 +1,369 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-size: 14px;    
+    font-weight: 600;
+}
+body{
+    background-color: rgba(0,128,128, 0.8);
+
+}
+.head{
+    z-index: 16;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color: black;
+    height: 55px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border-radius: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.head div{
+    margin: auto 0;
+}
+
+.head .content-head{
+    width: 19%;
+    padding-left: 1%;
+}
+
+head .content-head p{
+    font-style: italic;
+}
+
+.head .giuacontent{
+    width: 60%;
+    text-align: center;
+}
+.head .logina{
+    width: 9%;
+    /*padding-left: 15%;*/
+    background-color: rgba(49, 129, 52, 0.68);
+    height: 88%;
+    margin-right: 3%;
+    margin-left: 3%;
+    border-radius: 5px;
+}
+.head .logina a{
+    color: white;
+    text-decoration: none;
+    font-family: cursive;
+}
+
+/* body */
+.contain{
+    margin:0 5%;
+    display: flex;
+    /* margin-top: 50px; */
+}
+
+.option ul{
+    list-style: none;
+}
+.option ul li a{
+    color: white;
+    text-decoration: none;
+}
+.option ul li{
+    /*margin: 20px 0;*/
+    text-align: center;
+}
+.option{
+    background-color: rgba(0,0,0,0.8);
+    width: 20%;
+}
+
+.option form ul li.active{
+    background-color: #4CAF50;
+    color: white;
+    padding:5px;
+    border: 1px solid white;
+}
+
+.option form ul li{
+    padding:15px 0;
+    margin:2px;
+    border-radius: 5px;
+}
+
+/* right */
+.contain .right{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+}
+.title{
+    background-color: goldenrod;
+    width: 100%;
+    padding:20px 0;
+    font-style: italic;
+    font-family: serif;
+    border-radius: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.title h3{
+    margin: 0;
+    padding: 0;
+    font-weight: 800;
+}
+.products{
+    display: flex;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+.product{
+    width: 21%;
+    margin: 2% 2%;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: rgba(100,100,111,0.35) 0 7px 29px 0px;
+    position: relative;
+    height: 100%;
+}
+.product img{
+    width: 100%;
+    height: 230px;
+}
+.info{
+    text-align: center;
+}
+.footer{
+    background-color: rgb(235, 228, 228);
+    text-align: center;
+    /*height: 180px;*/
+    padding:20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.backShop img{
+    height: 250px;
+    width: 100%;
+}
+
+.backShop{
+    margin-top: 50px;
+    background-color:red;
+    opacity:0.65;
+}
+
+.phantrang{
+    margin: 20px 0;
+    display: inline-block;
+    width: 100%;
+}
+
+.phantrang a{
+    margin: 0 5px;
+    padding: 5px 10px;
+    color:white;
+    text-decoration: none;
+    font-size: 20px;
+    background-color: green;
+    border-radius: 10px;
+}
+
+.phantrang a.active{
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+}
+
+.phantrang a:hover:not(.active){
+    background-color: blueviolet;
+}
+
+.checkBox{
+    background-color: white;
+}
+.checkBox input{
+    color: black;
+    font-size: 20px;
+}
+
+.contain{
+    border: 3px solid gray;
+}
+
+.dangxuat{
+    width: 0px;
+}
+/*.info .buy{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}*/
+.info .buy{
+    padding:10px;
+    background-color: red;
+}
+
+.info .buy a{
+    color:white;
+    text-decoration: none;
+}
+
+.price{
+    padding: 6px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    right: 0;
+    border-radius: 5px;
+}
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+.ab{
+    display: flex;
+    flex-direction: column;
+}
+
+.ab a{
+    background-color: red;
+    border-radius: 10px;
+    margin:1px 0;
+}
+
+.login a{
+    margin: auto 0;
+}
+
+
+.info .buy input{
+    border:none;
+    background-color: red;
+    color: white;
+}
+.anhshop{
+    border-radius: 4px;
+}
+
+.info .slg input{
+    text-align: center;
+    width: 40%;
+    margin-bottom: 3px;
+    border-radius: 3px;
+}
+/*mycart*/
+.containB{
+    text-align: center;
+    margin: 0 20%;
+}
+
+.containB table{
+    margin:20px auto;
+    width:100%;
+}
+
+.containB table tr th{
+    font-style: italic;
+}
+
+.containB table tr,td,th{
+    border: 1.5px solid black;
+    padding:2px;
+}
+
+.soluongmua{
+    text-align: center;
+    
+}
+.soluongmua button{
+    width: 10%;
+}
+
+.soluongmua input{
+    width: 70%;
+}
+
+/*Phan tim kiem*/
+/*
+.timkiem {
+    background-color: rgb(140,131, 145);
+}
+.timkiem form input{
+    text-align: center;
+    width: 80%;
+    height: 45px;
+    border-radius: 10px;
+}
+.timkiem form{
+    text-align: center;
+    padding:20px;
+}
+
+.timkiem button{
+    padding:1%;  
+    border-radius: 30%;
+    width: 5%;
+}
+
+*/
+
+.search{
+    background-color: rgb(140,131, 145);
+    padding:10px 0;
+}
+.search form{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.fix{
+    display: flex;
+}
+
+.fix input{
+    width: 90%;
+    border: none;
+    border-radius: 10px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    padding-left: 10px;
+}
+.fix button{
+    width: 10%;
+    /*border: none;*/
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.fix button ion-icon{
+    font-size: 32px;
+
+}
+
+/* Insert For admin*/
+.insertForAdmin{
+    line-height: 32px;
+    background-color: rgb(0, 134, 179);
+    text-align: center;
+        padding:5px 0;
+}
+
+.insertForAdmin a{
+    color:white;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.insertForAdmin a:hover{
+    background-color: goldenrod;
+    text-decoration: none;
+}
+
+

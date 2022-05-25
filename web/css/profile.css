@@ -1,0 +1,46 @@
+.profile{
+    display: flex;
+    margin: 50px auto;
+    width: 60%;
+    border: 2px solid goldenrod;
+    padding: 5px;
+}
+
+
+.profile div{
+    margin: auto 0;
+}
+
+.profile .p_left{
+    background-color: lavender;
+    width: 150px;
+    text-align: center;
+    border-radius: 50%;
+    height: 150px;
+    display: grid;
+    width: 20%;
+}
+
+.p_left .inside{
+    margin: auto 0;
+
+}
+
+.p_right{
+    padding-left: 40px;
+    width: 70%;
+}
+
+
+.chinhsua{
+    width: 10%;
+    text-align: center;
+}
+hr{
+    width: 60%;
+    margin: 20px auto;
+}
+
+.chinhsua a ion-icon{
+    font-size: 24px;
+}

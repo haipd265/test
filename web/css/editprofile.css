@@ -1,0 +1,22 @@
+form{
+    margin-top: 50px;
+}
+.profileEdit{
+    width: 60%;
+    margin:0 auto;
+    text-align: center;
+}
+
+.profileEdit table{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.profileEdit table tr td{
+    padding:10px;
+}
+.profileEdit table tr td input{
+    width: 100%;
+    text-align: center;
+    border:none;
+}
